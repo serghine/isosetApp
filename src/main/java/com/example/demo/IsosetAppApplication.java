@@ -13,7 +13,13 @@ public class IsosetAppApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("hello word");
+		
+		
+		System.out.println(sum(5,2));
+	}
+	
+	public int sum(int a, int b) {
+		return a+ b;
 	}
 
 }
